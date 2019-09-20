@@ -8,11 +8,11 @@ import * as S from "./styled"
 const SocialLinks = () => (
   <S.SocialLinksWraper>
     <S.SocialLinksList>
-      {links.map((link, i) => {
+      {links.map((link, index) => {
         const Icon = Icons[link.label]
 
         return (
-          <S.SocialLinksItem key={i}>
+          <S.SocialLinksItem key={index}>
             <S.SocialLinksLink
               href={link.url}
               title={link.label}

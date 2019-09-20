@@ -8,11 +8,13 @@ export const SocialLinksWraper = styled.nav`
 export const SocialLinksList = styled.ul`
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   list-style: none;
 `
 
-export const SocialLinksItem = styled.li``
+export const SocialLinksItem = styled.li`
+  color: crisom;
+`
 
 export const SocialLinksLink = styled.a`
   color: #ffffff;

@@ -1,7 +1,6 @@
 import React from "react"
 import * as S from "./styled"
 
-import styled from "styled-components"
 import { Home } from "styled-icons/boxicons-solid/Home"
 import { Search } from "styled-icons/boxicons-regular/Search"
 import { Lightbulb as Theme } from "styled-icons/fa-regular/Lightbulb"
